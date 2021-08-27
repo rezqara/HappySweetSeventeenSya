@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+}
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(205, 240, 10);
+  text-align: center;
+  padding: 5px;
+}
+.header a:hover {
+  background-color: red;
+  color: black;
+}
+
+.anjay {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.anjoy {
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: rgb(250, 215, 19);
+  text-align: center;
+  width: 20%;
+  border: 1px solid#010c04;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 5px black;
+  
+}
+.anjoy img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.anjoy:hover {
+  box-shadow: none;
+}
+
+.content {
+  padding: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+footer {
+  background-color:whitesmoke;
+  width: auto;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  color: #2e2e2e;
+}
+footer a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+footer a:hover {
+  color: #dfe4eab4;
+}
+footer p {
+  font-weight: bold;
+}
